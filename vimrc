@@ -306,3 +306,5 @@ autocmd BufReadPost fugitive://*
   \   nnoremap <buffer> .. :edit %:h<CR> |
   \ endif
 
+let mapleader = ","
+colorscheme railscasts
