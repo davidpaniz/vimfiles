@@ -10,6 +10,7 @@ set backspace=indent,eol,start
 
 "store lots of :cmdline history
 set history=1000
+set viminfo='20,\"200 " keep a .viminfo file
 
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
@@ -35,8 +36,8 @@ if v:version >= 703
 endif
 
 "default indent settings
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set autoindent
 
