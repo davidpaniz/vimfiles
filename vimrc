@@ -132,6 +132,8 @@ set laststatus=2
 
 "recalculate the trailing whitespace warning when idle, and after saving
 autocmd cursorhold,bufwritepost * unlet! b:statusline_trailing_space_warning
+"auto generate ctags
+au BufWritePost *.rb silent! !ctags -R &
 
 "return '[\s]' if trailing white space is detected
 "return '' otherwise
@@ -313,3 +315,5 @@ colorscheme railscasts
 
 nnoremap <C-S-Tab> :tabprevious<CR>
 nnoremap <C-Tab> :tabnext<CR>
+nmap <F8> :TagbarToggle<CR>
+let g:CommandTMaxFiles=100000
