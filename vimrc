@@ -313,6 +313,7 @@ autocmd BufReadPost fugitive://*
 let mapleader = ","
 colorscheme railscasts
 
+nnoremap <C-t> :tselect
 nnoremap <C-S-Tab> :tabprevious<CR>
 nnoremap <C-Tab> :tabnext<CR>
 nmap <F8> :TagbarToggle<CR>
