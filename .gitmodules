@@ -85,3 +85,6 @@
 [submodule "bundle/nerdtree-tabs"]
 	path = bundle/nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/vim-tubaina"]
+	path = bundle/vim-tubaina
+	url = git@github.com:vinibaggio/vim-tubaina.git
